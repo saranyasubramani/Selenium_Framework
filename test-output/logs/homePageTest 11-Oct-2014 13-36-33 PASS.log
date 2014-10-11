@@ -1,0 +1,7 @@
+11-Oct-2014 13:36:11:776 INFO  HomePageTest:197 - =====================================================================================================
+11-Oct-2014 13:36:11:779 INFO  HomePageTest:206 - App URL    : null
+11-Oct-2014 13:36:11:780 INFO  HomePageTest:207 - Browser    : FIREFOX
+11-Oct-2014 13:36:11:780 INFO  HomePageTest:208 - =====================================================================================================
+11-Oct-2014 13:36:33:564 INFO  HomePageTest:156 - Logged into the application as - nandhini.bala
+11-Oct-2014 13:36:33:565 INFO  HomePageTest:28 - Successfully navigated to Preferences Page.
+11-Oct-2014 13:36:33:566 INFO  HomePageTest:36 - Successfully loaded Home Page elements

@@ -1,0 +1,6 @@
+29-Sep-2014 12:07:24:519 INFO  LoginTest:196 - =====================================================================================================
+29-Sep-2014 12:07:24:552 INFO  LoginTest:205 - App URL    : http://dev.secure.ebs.in/test/index-qa.html
+29-Sep-2014 12:07:24:555 INFO  LoginTest:206 - Browser    : CHROME
+29-Sep-2014 12:07:24:558 INFO  LoginTest:207 - =====================================================================================================
+29-Sep-2014 12:07:28:049 INFO  LoginTest:28 - TC_EBS_001 - 
+29-Sep-2014 12:07:48:000 INFO  LoginTest:300 - Captured Screenshot : F:\Ebs_Sys\test-output\screenshots\loginTest 29-Sep-2014 12-07-48.png
