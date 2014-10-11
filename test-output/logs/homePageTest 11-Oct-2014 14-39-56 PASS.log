@@ -1,7 +1,0 @@
-11-Oct-2014 14:34:03:756 INFO  HomePageTest:198 - =====================================================================================================
-11-Oct-2014 14:34:03:770 INFO  HomePageTest:207 - App URL    : http://systems.aspiresys.com/
-11-Oct-2014 14:34:03:773 INFO  HomePageTest:208 - Browser    : FIREFOX
-11-Oct-2014 14:34:03:776 INFO  HomePageTest:209 - =====================================================================================================
-11-Oct-2014 14:35:14:276 INFO  HomePageTest:157 - Logged into the application as - nandhini.bala
-11-Oct-2014 14:35:14:281 INFO  HomePageTest:28 - Successfully navigated to Preferences Page.
-11-Oct-2014 14:35:14:292 INFO  HomePageTest:37 - Successfully loaded Home Page elements

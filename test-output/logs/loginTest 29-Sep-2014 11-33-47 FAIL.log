@@ -1,8 +1,0 @@
-29-Sep-2014 11:33:01:498 INFO  LoginTest:193 - =====================================================================================================
-29-Sep-2014 11:33:01:574 INFO  LoginTest:202 - App URL    : http://dev.secure.ebs.in/test/index-qa.html
-29-Sep-2014 11:33:01:577 INFO  LoginTest:203 - Browser    : CHROME
-29-Sep-2014 11:33:01:580 INFO  LoginTest:204 - =====================================================================================================
-29-Sep-2014 11:33:02:624 INFO  LoginTest:28 - TC_EBS_001 - 
-29-Sep-2014 11:33:17:248 INFO  LoginTest:153 - Logged into the application as - sathya
-29-Sep-2014 11:33:39:266 INFO  LoginTest:38 - Successfully navigated to Preferences Page.
-29-Sep-2014 11:33:47:570 INFO  LoginTest:297 - Captured Screenshot : F:\Ebs_Sys\test-output\screenshots\loginTest 29-Sep-2014 11-33-47.png

@@ -1,6 +1,0 @@
-02-Sep-2014 15:15:56:556 INFO  LoginTest:193 - =====================================================================================================
-02-Sep-2014 15:15:56:574 INFO  LoginTest:202 - App URL    : http://dev.secure.ebs.in/test/index-qa.html
-02-Sep-2014 15:15:56:574 INFO  LoginTest:203 - Browser    : CHROME
-02-Sep-2014 15:15:56:575 INFO  LoginTest:204 - =====================================================================================================
-02-Sep-2014 15:15:56:595 INFO  LoginTest:297 - Captured Screenshot : E:\Ebs_System\test-output\screenshots\loginTest 02-Sep-2014 15-15-56.png
-02-Sep-2014 15:15:56:728 ERROR LoginTest:303 - The following error has occured while capturing a screen shot : E:\Ebs_System\test-output\screenshots\loginTest 02-Sep-2014 15-15-56.png (The system cannot find the path specified)

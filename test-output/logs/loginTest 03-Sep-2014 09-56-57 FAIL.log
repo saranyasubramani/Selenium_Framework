@@ -1,6 +1,0 @@
-03-Sep-2014 09:55:43:614 INFO  LoginTest:194 - =====================================================================================================
-03-Sep-2014 09:55:43:615 INFO  LoginTest:203 - App URL    : http://dev.secure.ebs.in/test/index-qa.html
-03-Sep-2014 09:55:43:616 INFO  LoginTest:204 - Browser    : CHROME
-03-Sep-2014 09:55:43:617 INFO  LoginTest:205 - =====================================================================================================
-03-Sep-2014 09:55:43:625 INFO  LoginTest:298 - Captured Screenshot : E:\Ebs_System\test-output\screenshots\loginTest 03-Sep-2014 09-55-43.png
-03-Sep-2014 09:55:43:723 INFO  LoginTest:315 - The test result for loginTest is FAIL

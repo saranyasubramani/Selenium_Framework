@@ -1,7 +1,0 @@
-29-Sep-2014 16:06:39:771 INFO  HomePageTest:196 - =====================================================================================================
-29-Sep-2014 16:06:39:778 INFO  HomePageTest:205 - App URL    : null
-29-Sep-2014 16:06:39:779 INFO  HomePageTest:206 - Browser    : FIREFOX
-29-Sep-2014 16:06:39:779 INFO  HomePageTest:207 - =====================================================================================================
-29-Sep-2014 16:07:01:666 INFO  HomePageTest:156 - Logged into the application as - nandhini.bala
-29-Sep-2014 16:07:01:667 INFO  HomePageTest:21 - Successfully navigated to Preferences Page.
-29-Sep-2014 16:07:01:668 INFO  HomePageTest:27 - Home Veriables are getting displayed after login to the application.
