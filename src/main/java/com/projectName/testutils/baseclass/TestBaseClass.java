@@ -383,7 +383,7 @@ public class TestBaseClass extends Assert {
 		protected boolean logMessage(String message1,String message2){
 			
 			logCustomMessage().setAttribute(getCurrentDateAndTime(), getCustomAttributeValue(message1,message2, empty, empty, empty, getCallingMethodAndLineNumber()));
-			
+			log.info(message2);
 			return true;
 		}
 }

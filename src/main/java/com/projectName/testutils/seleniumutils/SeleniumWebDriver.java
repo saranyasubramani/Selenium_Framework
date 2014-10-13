@@ -1,10 +1,10 @@
 package com.projectName.testutils.seleniumutils;
 
-import java.awt.AWTException;
+
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
+
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
@@ -22,7 +22,6 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 
 import com.projectName.testutils.genericutility.Constants;
-import com.projectName.testutils.genericutility.Keyboard;
 import com.projectName.testutils.genericutility.ExceptionHandler;
 import com.thoughtworks.selenium.Selenium;
 
@@ -403,7 +402,6 @@ public class SeleniumWebDriver {
 			if (waitForElement(elementName, wait)) {
 				returnString=driver.findElement(elementName).getText();
 				status = "done";
-				return returnString;
 			}
 		} catch (ExceptionHandler e) {
 			e.printStackTrace();
@@ -431,7 +429,6 @@ public class SeleniumWebDriver {
 			if (waitForElement(elementName, Constants.AVG_WAIT_TIME_FOR_ELEMENT)) {
 				returnString=driver.findElement(elementName).getAttribute("value");
 				status = "done";
-				return returnString;
 			} else {
 				return "";
 			}

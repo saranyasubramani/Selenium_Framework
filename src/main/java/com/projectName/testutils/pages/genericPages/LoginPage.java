@@ -1,6 +1,7 @@
 package com.projectName.testutils.pages.genericPages;
 
 import java.awt.AWTException;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Hashtable;
 
@@ -36,12 +37,13 @@ public class LoginPage extends SeleniumWebDriver {
 	 * Login to the application
 	 * 
 	 * @throws ExceptionHandler
+	 * @throws IOException 
 	 * @throws AWTException
 	 * @throws InterruptedException
 	 */
 	//public Screen1 login(HashedMap testData, WebDriver driver)
 	public HomePage login(String UserName, String Password)
-			throws ExceptionHandler {
+			throws ExceptionHandler, IOException {
 		try{
 			Assert.assertTrue(click(loginButton), "Could not click on login  button");
 			Thread.sleep(5000);

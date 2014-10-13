@@ -1,7 +1,7 @@
 package com.projectName.test.functional.moduleName1;
 
+
 import org.apache.commons.collections.map.HashedMap;
-import org.junit.Assert;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 

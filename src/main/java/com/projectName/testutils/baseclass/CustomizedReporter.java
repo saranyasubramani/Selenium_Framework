@@ -16,6 +16,7 @@ public class CustomizedReporter implements ITestListener{
 	private static PrintWriter  f_out;
 	private static File screenshotDir; 
 	private static final String OUT_FOLDER  = "custom-test-report";
+	private String className;
 	
 	/**
 	 * This function will execute before test start
@@ -24,7 +25,7 @@ public class CustomizedReporter implements ITestListener{
 		try {
 
 			//used to get the test class name
-			String className = context.getCurrentXmlTest().getClasses().get(0).getName();
+		 className = context.getCurrentXmlTest().getClasses().get(0).getName();
 
 			//used for creating required directories
 			createRequiredDirectory(OUT_FOLDER, className);
@@ -187,7 +188,7 @@ public class CustomizedReporter implements ITestListener{
 	    out.println("</head>");
 	    out.println("<body>");
 	    out.println("<h1>Test results </h1>");
-	    out.println("<h2>Test Method Name: "+result.getName()+"</h2>");
+	    out.println("<h2>Test Name: "+className+"."+result.getName()+"</h2>");
 	    
 	    out.println("<table border=\"1\">");
 	    out.println("<tbody>");

@@ -1,6 +1,7 @@
 package com.projectName.testutils.pages.projectNamePages;
 
 import java.awt.AWTException;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Hashtable;
 
@@ -16,7 +17,7 @@ import com.projectName.testutils.seleniumutils.SeleniumWebDriver;
 import org.openqa.selenium.Keys;
 public class HomeScreen extends SeleniumWebDriver{
 	
-	protected By lnkIDM = By.linkText("IDM/PMS");
+	protected By lnkIDM = By.linkText("123");
 	protected By lnkLearnStation = By.linkText("Learn Station");
 	protected By lnkLMS = By.linkText("LMS");
 	protected By lnkHelpDesk = By.linkText("Help Desk");
@@ -39,10 +40,11 @@ public class HomeScreen extends SeleniumWebDriver{
 	/***
 	 * Search by any name to the Home screen
 	 * @throws ExceptionHandler
+	 * @throws IOException 
 	 * @throws AWTException
 	 * @throws InterruptedException
 	 */
-	public boolean searchbyanyname(String UserName)throws ExceptionHandler {
+	public boolean searchbyanyname(String UserName)throws ExceptionHandler, IOException {
 		try{
 			
 			Assert.assertTrue(sendKeys(txtSearchtextbox,UserName),"Could not enter user name");
@@ -54,18 +56,19 @@ public class HomeScreen extends SeleniumWebDriver{
 		return true;
 	}
 	
-	public boolean verifyelement()throws ExceptionHandler{
+	public boolean verifyelement()throws ExceptionHandler, IOException{
+		boolean returnValue=true;
 		try{
-			if(isElementPresent(lnkIDM)){
-				return true;
+			if(!isElementPresent(lnkIDM)){
+				returnValue=false;
 			}
-			if(isElementPresent(lnkLMS)){
-				return true;
+			if(!isElementPresent(lnkLMS)){
+				returnValue=false;
 			}
-			if(isElementPresent(lnkSeventhSense)){
-				return true;
+			if(!isElementPresent(lnkSeventhSense)){
+				returnValue=false;
 			}
-			return false;
+			return returnValue;
 		}catch(Exception e){
 			throw new ExceptionHandler(e);
 		}

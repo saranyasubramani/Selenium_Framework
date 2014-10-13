@@ -1,5 +1,7 @@
 package com.projectName.testutils.pages.genericPages;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -22,7 +24,7 @@ public class SearchPage extends SeleniumWebDriver{
 		super(driver);
 	}
 	
-	public boolean searchPage()throws ExceptionHandler{
+	public boolean searchPage()throws ExceptionHandler, IOException{
 		
 		try{
 			if(isElementPresent(lnkHome)){

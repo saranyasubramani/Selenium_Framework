@@ -1,6 +1,8 @@
 package com.projectName.test.functional.moduleName1;
 
 
+import java.io.IOException;
+
 import org.testng.annotations.Test;
 import com.projectName.testutils.baseclass.TestBaseClass;
 import com.projectName.testutils.genericutility.ExceptionHandler;
@@ -12,10 +14,11 @@ public class LoginTest extends TestBaseClass {
 
 	/**
 	 * Test to verify login
+	 * @throws IOException 
 	 */
 
 	@Test(retryAnalyzer = RetryRule.class)
-	public void loginTest() throws ExceptionHandler {
+	public void loginTest() throws ExceptionHandler{
 		try{
 
 			// ------------------------------------------------------------------//

@@ -1,8 +1,12 @@
-11-Oct-2014 15:35:44:866 INFO  HomePageTest:198 - =====================================================================================================
-11-Oct-2014 15:35:44:870 INFO  HomePageTest:207 - App URL    : http://systems.aspiresys.com/
-11-Oct-2014 15:35:44:871 INFO  HomePageTest:208 - Browser    : FIREFOX
-11-Oct-2014 15:35:44:871 INFO  HomePageTest:209 - =====================================================================================================
-11-Oct-2014 15:36:03:586 INFO  HomePageTest:157 - Logged into the application as - nandhini.bala
-11-Oct-2014 15:36:03:586 INFO  HomePageTest:28 - Successfully navigated to Preferences Page.
-11-Oct-2014 15:36:05:587 INFO  HomePageTest:38 - Successfully loaded Home Page elements
-11-Oct-2014 15:36:05:701 INFO  HomePageTest:319 - The test result for homePageTest is PASS
+13-Oct-2014 12:10:34:568 INFO  HomePageTest:198 - =====================================================================================================
+13-Oct-2014 12:10:34:575 INFO  HomePageTest:207 - App URL    : http://systems.aspiresys.com/
+13-Oct-2014 12:10:34:576 INFO  HomePageTest:208 - Browser    : FIREFOX
+13-Oct-2014 12:10:34:576 INFO  HomePageTest:209 - =====================================================================================================
+13-Oct-2014 12:10:34:582 INFO  HomePageTest:386 - Login to http://systems.aspiresys.com/ website
+13-Oct-2014 12:10:55:380 INFO  HomePageTest:157 - Logged into the application as - nandhini.bala
+13-Oct-2014 12:11:00:380 INFO  HomePageTest:386 - Sucessfully navigated to Home screen
+13-Oct-2014 12:11:00:380 INFO  HomePageTest:386 - Load home page elements
+13-Oct-2014 12:11:07:382 INFO  HomePageTest:386 - Successfully loaded Home Page elements
+13-Oct-2014 12:11:07:386 INFO  HomePageTest:386 - Verify presense of home page elements
+13-Oct-2014 12:11:11:195 INFO  HomePageTest:302 - Captured Screenshot : C:\Users\priya.marimuthu\git\Selenium_Framework\test-output\screenshots\homePageTest 13-Oct-2014 12-11-11.png
+13-Oct-2014 12:11:11:562 INFO  HomePageTest:319 - The test result for homePageTest is FAIL
