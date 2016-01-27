@@ -30,7 +30,7 @@ public class HomePageTest  extends TestBaseClass{
 			// ------------------------------------------------------------------//
 			// Step-2:Load Home Page Variable //
 			// ------------------------------------------------------------------//
-			logMessage("STEP 2:","Load home page elements");
+			logMessage("STEP 2:","Loading home page elements");
 			homePage = PageFactory.initElements(driver, HomePage.class);	
 			HomeScreen homeobject = homePage.navigateToHomePage();
 			Thread.sleep(7000);
